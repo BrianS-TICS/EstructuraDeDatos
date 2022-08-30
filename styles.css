@@ -1,0 +1,87 @@
+:root{
+    --principal : 'Fira Code', monospace;
+    --secundaria : 'Poppins', sans-serif;
+
+    --colorSecundario : #f8efbf;
+}
+
+body{
+    font-family: var(--secundaria);
+}
+
+p{
+    font-weight: 300;
+    margin: 0;
+}
+
+.contenedor{
+    width: 80%;
+    max-width: 60rem;
+    margin: 0 auto;
+}
+
+.resaltado{
+    font-weight: 800;
+}
+
+.fuente-regular{
+    font-weight: 500;
+}
+
+.disminucion-fuente{
+    font-weight: 300;
+    font-size: 25px;
+}
+
+.input-principal{
+    margin-top: 10px;
+    padding: 10px 10px;
+}
+
+.label-principal{
+    margin-top: 10px;
+    display: block;
+}
+
+.button-principal{
+    background-color: #1752BF;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.color-secundario{
+    color: #ff5c35;
+}
+
+.color-black{
+    color: black;
+}
+
+.resultado{
+    margin-top: 10px;
+    color: #1752BF;
+}
+
+.titulo-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 2rem;
+}
+
+.enlace-codigo{
+    text-decoration: none;
+    color: black;
+
+    display: flex;
+    gap: 2px;
+}
+
+.enlace-codigo img{
+    width: 20px;
+}
