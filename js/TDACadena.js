@@ -1,5 +1,12 @@
 class TDACadena {
 
+    // Al no ser tipado así quedan los atributos
+    cadena;
+
+    constructor(cadena){
+        this.cadena = cadena
+    }
+
     borraInicio(cadena) {
         if (cadena.length > 0) {
             //? retorna el carácter más a la izquierda de la cadena S y la cadena S modificada
